@@ -1,15 +1,12 @@
 # DeepSeek API
-
 DeepSeek API is a Spring Boot-based AI chatbot service powered by OllamaChatModel. This project provides RESTful endpoints for AI-generated text responses, with both standard and streaming responses.
 
 ## Features
-
 - AI-powered text generation using OllamaChatModel.
 - Supports synchronous and streaming responses.
 - Built with Spring Boot for easy deployment and scalability.
 
 ## Installation
-
 ### Prerequisites
 Ensure you have the following installed:
 - Java 17+
@@ -18,7 +15,7 @@ Ensure you have the following installed:
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/khan7071/DEEPSEEK.git
+git clone https://github.com/khan-sk-dev/DEEPSEEK.git
 cd DEEPSEEK
 ```
 
@@ -28,11 +25,9 @@ To build and run the application, use:
 mvn clean install
 mvn spring-boot:run
 ```
-
 The application will start on http://localhost:8080.
 
 ## API Endpoints
-
 ### Generate AI Response
 Endpoint:
 ```http
@@ -45,7 +40,7 @@ curl "http://localhost:8080/ai/generate?message=Tell+me+a+joke"
 Response:
 ```json
 {
-  "generation": "Why don’t scientists trust atoms? Because they make up everything!"
+  "generation": "Why don't scientists trust atoms? Because they make up everything!"
 }
 ```
 
